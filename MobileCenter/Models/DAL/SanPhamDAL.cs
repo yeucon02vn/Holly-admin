@@ -28,9 +28,9 @@ namespace MobileCenter.Models.DAL
             com.Connection = conect;
             com.CommandType = CommandType.StoredProcedure;
             com.CommandText = "SanPham_Insert";
-            com.Parameters.Add("@dulieuhinhsanpham", SqlDbType.Image).Value = _sanPham.IdHinhSanPham;
-            com.Parameters.Add("@TenSanPham", SqlDbType.NVarChar).Value = _sanPham.TenSanPham;
             com.Parameters.Add("@IdDanhMucSanPham", SqlDbType.Int).Value = _sanPham.IdDanhMucSanPham;
+            com.Parameters.Add("@IdHinhSanPham", SqlDbType.Int).Value = _sanPham.IdHinhSanPham;
+            com.Parameters.Add("@TenSanPham", SqlDbType.NVarChar).Value = _sanPham.TenSanPham;         
             com.Parameters.Add("@MoTaSanPham", SqlDbType.NVarChar).Value = _sanPham.MoTaSanPham;
             com.Parameters.Add("@GiaSanPham", SqlDbType.Int).Value = _sanPham.GiaSanPham;
             com.ExecuteNonQuery();

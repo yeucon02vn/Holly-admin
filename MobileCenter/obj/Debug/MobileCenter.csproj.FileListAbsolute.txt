@@ -315,3 +315,4 @@ E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.GenerateResource
 E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.CopyComplete
 E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.dll
 E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
+E:\.NET\MobileCenter\MobileCenter\bin\CKEditor.NET.dll
