@@ -260,7 +260,22 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005170355545_initalEntity.cs" />
+    <Compile Include="Migrations\202005170355545_initalEntity.designer.cs">
+      <DependentUpon>202005170355545_initalEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\dbMobileCenterContext.cs" />
+    <Compile Include="Models\DTO\ChiTietDonHangDTO.cs" />
+    <Compile Include="Models\DTO\DanhMucSanPhamDTO.cs" />
+    <Compile Include="Models\DTO\DonHangDTO.cs" />
+    <Compile Include="Models\DTO\GioHangDTO.cs" />
+    <Compile Include="Models\DTO\HinhSanPhamDTO.cs" />
+    <Compile Include="Models\DTO\KieuNguoiDungDTO.cs" />
+    <Compile Include="Models\DTO\NguoiDungDTO.cs" />
+    <Compile Include="Models\DTO\SanPhamDTO.cs" />
+    <Compile Include="Models\DTO\ThamSo.cs" />
+    <Compile Include="Models\DTO\TinhTrangDonHangDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -290,7 +305,6 @@
     <Folder Include="Assets\" />
     <Folder Include="Models\BUS\" />
     <Folder Include="Models\DAL\" />
-    <Folder Include="Models\DTO\" />
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
@@ -303,6 +317,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202005170355545_initalEntity.resx">
+      <DependentUpon>202005170355545_initalEntity.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

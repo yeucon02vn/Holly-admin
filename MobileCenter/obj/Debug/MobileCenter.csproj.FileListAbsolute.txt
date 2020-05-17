@@ -151,7 +151,6 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.HashCode.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -173,7 +172,6 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Runtime.Compiler
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.HashCode.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Abstractions.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Memory.xml
@@ -193,3 +191,5 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Memory.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Numerics.Vectors.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.Migrations.initalEntity.resources
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.GenerateResource.cache
