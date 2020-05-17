@@ -13,7 +13,14 @@ namespace MobileCenter.Models.DTO
         [Key]
         public int IdChiTietDonHang { get; set; }
         public int IdSanPham { get; set; }
+        public SanPhamDTO[] SanPham { get; set; }
         public int IdDonHang { get; set; }
+        public DonHangDTO DonHang { get; set; }
         public int SoLuongSanPham { get; set; }
+        public ChiTietDonHangDTO()
+        {
+            DonHang = new DonHangDTO();
+        }
+        
     }
 }
