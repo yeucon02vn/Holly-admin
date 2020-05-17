@@ -27,9 +27,10 @@ namespace MobileCenter
                 Spham.IdDanhMucSanPham = 1;
                 Spham.IdHinhSanPham = 1;
                 Spham.TenSanPham = txtTenSanPham.Text; // txtTenSanPham là ID của TextBox
-                Spham.MoTaSanPham = CKEditorControlMoTa.Text;//txtTenSanPham là ID của TextBox              
+                Spham.MoTaSanPham = CKEditorControlMoTa.Text;//txtTenSanPham là ID của TextBox      
+                Spham.HinhSanPham.LinkSanPham = fileuploadHinhSanPham.FileBytes;
                 // fileuploadHinhSanPham là ID của điều khiển FileUpLoad
-                Spham.GiaSanPham = Convert.ToInt32(txtGia.Text); // txtGia là ID của TextBox
+                Spham.GiaSanPham = int.Parse(txtGia.Text); // txtGia là ID của TextBox
                 themsanpham._sanPham = Spham;
                 try
                 {

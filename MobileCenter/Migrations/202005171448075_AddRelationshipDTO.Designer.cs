@@ -7,13 +7,13 @@ namespace MobileCenter.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class initalEntity : IMigrationMetadata
+    public sealed partial class AddRelationshipDTO : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(initalEntity));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddRelationshipDTO));
         
         string IMigrationMetadata.Id
         {
-            get { return "202005170355545_initalEntity"; }
+            get { return "202005171448075_AddRelationshipDTO"; }
         }
         
         string IMigrationMetadata.Source

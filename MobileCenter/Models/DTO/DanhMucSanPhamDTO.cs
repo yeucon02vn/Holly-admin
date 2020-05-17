@@ -12,6 +12,7 @@ namespace MobileCenter.Models.DTO
     {
         [Key]
         public int IdDanhMucSanPham { get; set; }
-        public int TenDanhMucSanPham { get; set; }
+        public string TenDanhMucSanPham { get; set; }
+        public ICollection<SanPhamDTO> SanPham { get; set; }
     }
 }
