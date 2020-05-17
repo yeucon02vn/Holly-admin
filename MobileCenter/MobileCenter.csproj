@@ -265,6 +265,8 @@
       <DependentUpon>202005170355545_initalEntity.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\DAL\ChiTietDonHang\ChiTietDonHangDAL.cs" />
+    <Compile Include="Models\DAL\KetNoi.cs" />
     <Compile Include="Models\dbMobileCenterContext.cs" />
     <Compile Include="Models\DTO\ChiTietDonHangDTO.cs" />
     <Compile Include="Models\DTO\DanhMucSanPhamDTO.cs" />
@@ -304,7 +306,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Assets\" />
     <Folder Include="Models\BUS\" />
-    <Folder Include="Models\DAL\" />
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
