@@ -11,25 +11,35 @@ namespace MobileCenter.Models.BUS
     public class SanPhamBUS
     {
         public SanPhamDTO _sanPham { get; set; }
-        public SqlDataSource _ketqua { get; set; }
+        public SqlDataSource KetQua { get; set; }
+        public string Tieuchuantim { get; set; }
+
         public void Insert()
         {
-            SanPhamDAL spDAL = new SanPhamDAL();
-            spDAL._sanPham = this._sanPham;
-            spDAL.Insert();
+            SanPhamDAL insertSanPham = new SanPhamDAL();
+            insertSanPham._sanPham = this._sanPham;
+            insertSanPham.Insert();
         }
+
+        public void Update()
+        {
+            SanPhamDAL updateSanPham = new SanPhamDAL();
+            updateSanPham._sanPham = this._sanPham;
+            updateSanPham.Update();
+        }
+
         public void SelectAll()
         {
             SanPhamDAL spDAL = new SanPhamDAL();
-            _ketqua = spDAL.SelectAll();
+            KetQua = spDAL.SelectAll();
         }
         public void SelectById()
         {
             SanPhamDAL spDAL = new SanPhamDAL();
             spDAL._sanPham = this._sanPham;
-            _ketqua = spDAL.SelectById();
+            KetQua = spDAL.SelectById();
             GridView gv = new GridView();
-            gv.DataSource = _ketqua;
+            gv.DataSource = KetQua;
             gv.DataBind();
             _sanPham.TenSanPham = gv.Rows[0].Cells[1].Text.ToString();
             _sanPham.MoTaSanPham = gv.Rows[0].Cells[4].Text.ToString();
@@ -41,7 +51,26 @@ namespace MobileCenter.Models.BUS
         public void SelectByDanhMuc()
         {
             SanPhamDAL spDAL = new SanPhamDAL();
-            _ketqua = spDAL.SelectByDanhMuc();
+            KetQua = spDAL.SelectByDanhMuc();
+        }
+
+        public void SelectTop10()
+        {
+            SanPhamDAL selectTop10SanPham = new SanPhamDAL();
+            KetQua = selectTop10SanPham.SelectTop10();
+        }
+
+        public void SelectHinhSanPhamById()
+        {
+            SanPhamDAL selectHinhSanPhamById = new SanPhamDAL();
+            selectHinhSanPhamById._sanPham = this._sanPham;
+            KetQua = selectHinhSanPhamById.SelectHinhSanPham();
+        }
+
+        public void Search()
+        {
+            SanPhamDAL searchSanPham = new SanPhamDAL();
+            KetQua = searchSanPham.Search(Tieuchuantim);
         }
     }
 }

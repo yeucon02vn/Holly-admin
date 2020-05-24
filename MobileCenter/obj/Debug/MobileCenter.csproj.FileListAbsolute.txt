@@ -1,76 +1,5 @@
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\MobileCenter.dll.config
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\MobileCenter.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\MobileCenter.pdb
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\csc.exe
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\csc.exe.config
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\csc.rsp
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\csi.exe
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\csi.exe.config
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\csi.rsp
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.AppContext.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Console.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.IO.Compression.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Net.Http.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.ValueTuple.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\vbc.exe
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\vbc.exe.config
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\vbc.rsp
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\VBCSCompiler.exe
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Antlr3.Runtime.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\AspNet.ScriptManager.bootstrap.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\AspNet.ScriptManager.jQuery.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.MSAjax.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.WebForms.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Newtonsoft.Json.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\System.Web.Optimization.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\WebGrease.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\System.Web.Optimization.xml
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Newtonsoft.Json.xml
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Antlr3.Runtime.pdb
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.xml
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csprojAssemblyReference.cache
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.CopyComplete
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\obj\Debug\MobileCenter.dll
-C:\Users\Tieu Manh\source\repos\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.Migrations.AddRelationshipDTO.resources
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.GenerateResource.cache
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\MobileCenter.dll.config
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\MobileCenter.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\MobileCenter.pdb
@@ -126,30 +55,14 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\roslyn\VBCSCompiler.exe
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Antlr3.Runtime.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\CKEditor.NET.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\EntityFramework.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\EntityFramework.SqlServer.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.MSAjax.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.WebForms.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Newtonsoft.Json.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Web.Optimization.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\WebGrease.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\EntityFramework.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\EntityFramework.SqlServer.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Web.Optimization.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Newtonsoft.Json.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Antlr3.Runtime.pdb
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csprojAssemblyReference.cache
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.CopyComplete
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.dll
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Memory.dll
@@ -162,6 +75,10 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Lo
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Logging.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Options.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Newtonsoft.Json.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Buffers.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Collections.Immutable.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.ComponentModel.Annotations.dll
@@ -170,6 +87,10 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Memory.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Numerics.Vectors.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Web.Optimization.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\WebGrease.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\EntityFramework.xml
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\EntityFramework.SqlServer.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.Bcl.HashCode.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
@@ -191,128 +112,12 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Memory.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Numerics.Vectors.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Threading.Tasks.Extensions.xml
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.Migrations.initalEntity.resources
-C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.GenerateResource.cache
-E:\.NET\MobileCenter\MobileCenter\bin\MobileCenter.dll.config
-E:\.NET\MobileCenter\MobileCenter\bin\MobileCenter.dll
-E:\.NET\MobileCenter\MobileCenter\bin\MobileCenter.pdb
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\csc.exe
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\csc.exe.config
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\csc.rsp
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\csi.exe
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\csi.exe.config
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\csi.rsp
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.Managed.Core.targets
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.VisualBasic.Core.targets
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\Microsoft.Win32.Primitives.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.AppContext.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Collections.Immutable.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Console.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Diagnostics.StackTrace.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Globalization.Calendars.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.IO.Compression.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.IO.Compression.ZipFile.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.IO.FileSystem.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.IO.FileSystem.Primitives.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Net.Http.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Net.Sockets.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Reflection.Metadata.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.Encoding.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.Primitives.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Text.Encoding.CodePages.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Threading.Tasks.Extensions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.ValueTuple.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Xml.ReaderWriter.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Xml.XmlDocument.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Xml.XPath.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\System.Xml.XPath.XDocument.dll
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\vbc.exe
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\vbc.exe.config
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\vbc.rsp
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\VBCSCompiler.exe
-E:\.NET\MobileCenter\MobileCenter\bin\roslyn\VBCSCompiler.exe.config
-E:\.NET\MobileCenter\MobileCenter\bin\Antlr3.Runtime.dll
-E:\.NET\MobileCenter\MobileCenter\bin\AspNet.ScriptManager.bootstrap.dll
-E:\.NET\MobileCenter\MobileCenter\bin\AspNet.ScriptManager.jQuery.dll
-E:\.NET\MobileCenter\MobileCenter\bin\EntityFramework.dll
-E:\.NET\MobileCenter\MobileCenter\bin\EntityFramework.SqlServer.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Bcl.AsyncInterfaces.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Bcl.HashCode.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Abstractions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Memory.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.Binder.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.DependencyInjection.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Logging.Abstractions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Logging.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Options.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Primitives.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.MSAjax.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.ScriptManager.WebForms.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Web.Infrastructure.dll
-E:\.NET\MobileCenter\MobileCenter\bin\Newtonsoft.Json.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Buffers.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Collections.Immutable.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.ComponentModel.Annotations.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Diagnostics.DiagnosticSource.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Memory.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Numerics.Vectors.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Runtime.CompilerServices.Unsafe.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Threading.Tasks.Extensions.dll
-E:\.NET\MobileCenter\MobileCenter\bin\System.Web.Optimization.dll
-E:\.NET\MobileCenter\MobileCenter\bin\WebGrease.dll
-E:\.NET\MobileCenter\MobileCenter\bin\EntityFramework.xml
-E:\.NET\MobileCenter\MobileCenter\bin\EntityFramework.SqlServer.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Bcl.AsyncInterfaces.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Bcl.HashCode.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Abstractions.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Caching.Memory.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.Abstractions.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Configuration.Binder.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.DependencyInjection.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Logging.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Logging.Abstractions.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Options.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.Extensions.Primitives.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Buffers.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Collections.Immutable.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Diagnostics.DiagnosticSource.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Memory.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Numerics.Vectors.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Runtime.CompilerServices.Unsafe.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Threading.Tasks.Extensions.xml
-E:\.NET\MobileCenter\MobileCenter\bin\System.Web.Optimization.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Newtonsoft.Json.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Antlr3.Runtime.pdb
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.xml
-E:\.NET\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csprojAssemblyReference.cache
-E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.Migrations.initalEntity.resources
-E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.GenerateResource.cache
-E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.CopyComplete
-E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.dll
-E:\.NET\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
-E:\.NET\MobileCenter\MobileCenter\bin\CKEditor.NET.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\System.Web.Optimization.xml
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Newtonsoft.Json.xml
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Antlr3.Runtime.pdb
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.CopyComplete
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.dll
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csprojAssemblyReference.cache

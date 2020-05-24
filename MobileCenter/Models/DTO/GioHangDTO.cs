@@ -14,7 +14,7 @@ namespace MobileCenter.Models.DTO
         public int IdGioHang { get; set; }
         public int IdSanPham { get; set; }
         public SanPhamDTO SanPham { get; set; }
-        public string CartGuild { get; set; }
+        public string CartGuid { get; set; }
         public int SoLuong { get; set; }
         public DateTime NgayTaoGioHang {get; set; }
         public GioHangDTO()

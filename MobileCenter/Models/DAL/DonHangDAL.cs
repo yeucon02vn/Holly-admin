@@ -24,7 +24,7 @@ namespace MobileCenter.Models.DAL
             sqlData.InsertCommandType = SqlDataSourceCommandType.StoredProcedure;
             sqlData.InsertCommand = "DonHang_Insert";
             sqlData.InsertParameters.Add("IdNguoiDung", _donHang.IdNguoiDung.ToString());
-            //sqlData.InsertParameters.Add("IdGiaoDich", _donHang.IdGiaoDich.ToString());
+            sqlData.InsertParameters.Add("MaGiaoDich", _donHang.MaGiaoDich);
             sqlData.Insert();
         }
         public SqlDataSource SelectTop1()
@@ -34,6 +34,15 @@ namespace MobileCenter.Models.DAL
             sqlData.SelectCommand = "DonHang_Top1_Select ";
             return sqlData;
         }
+
+        public SqlDataSource SelectAll()
+        {
+            SqlDataSource sqlData = Connect();
+            sqlData.SelectCommandType = SqlDataSourceCommandType.StoredProcedure;
+            sqlData.SelectCommand = "DonHangAll_Select";
+            return sqlData;
+        }
+
         public SqlDataSource SelectById()
         {
             SqlDataSource sqlData = Connect();
@@ -49,6 +58,18 @@ namespace MobileCenter.Models.DAL
             sqlData.SelectCommand = "DonHang_Select";
             sqlData.SelectParameters.Add("IdNguoiDung", _nguoiDung.IdNguoiDung.ToString());
             return sqlData;
+        }
+
+        public void Update()
+        {
+            SqlDataSource sqlData = Connect();
+            sqlData.UpdateCommandType = SqlDataSourceCommandType.StoredProcedure;
+            sqlData.UpdateCommand = "DonHang_Update";
+            sqlData.UpdateParameters.Add("IdDonHang", _donHang.IdDonHang.ToString());
+            sqlData.UpdateParameters.Add("IdTinhTrangDonHang", _donHang.IdTinhTrangDonHang.ToString());
+            sqlData.UpdateParameters.Add("NgayXuLyDonHang", _donHang.NgayXuLyDonHang.ToShortDateString());
+            sqlData.UpdateParameters.Add("TrackingNumber", _donHang.TrackingNumber);
+            sqlData.Update();
         }
     }
 }
