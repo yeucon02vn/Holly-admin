@@ -451,12 +451,23 @@
       <DependentUpon>202005171448075_AddRelationshipDTO.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\BUS\ChiTietDonHangBUS.cs" />
+    <Compile Include="Models\BUS\DanhMucSanPhamBUS.cs" />
     <Compile Include="Models\BUS\DonHangBUS.cs" />
+    <Compile Include="Models\BUS\GioHangBUS.cs" />
+    <Compile Include="Models\BUS\NguoiDungBUS.cs" />
     <Compile Include="Models\BUS\SanPhamBUS.cs" />
+    <Compile Include="Models\BUS\ThamSoBUS.cs" />
+    <Compile Include="Models\BUS\TinhTrangDonHangBUS.cs" />
     <Compile Include="Models\DAL\ChiTietDonHangDAL.cs" />
+    <Compile Include="Models\DAL\DanhMucSanPhamDAL.cs" />
+    <Compile Include="Models\DAL\GioHangDAL.cs" />
     <Compile Include="Models\DAL\DonHangDAL.cs" />
     <Compile Include="Models\DAL\Connect\KetNoi.cs" />
+    <Compile Include="Models\DAL\NguoiDungDAL.cs" />
     <Compile Include="Models\DAL\SanPhamDAL.cs" />
+    <Compile Include="Models\DAL\ThamSoDAL.cs" />
+    <Compile Include="Models\DAL\TinhTrangDonHangDAL.cs" />
     <Compile Include="Models\dbMobileCenterContext.cs" />
     <Compile Include="Models\DTO\ChiTietDonHangDTO.cs" />
     <Compile Include="Models\DTO\DanhMucSanPhamDTO.cs" />

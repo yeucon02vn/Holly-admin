@@ -15,11 +15,9 @@ namespace MobileCenter.Models.DTO
         public int IdSanPham { get; set; }
         public SanPhamDTO[] SanPham { get; set; }
         public int IdDonHang { get; set; }
-        public DonHangDTO DonHang { get; set; }
         public int SoLuongSanPham { get; set; }
         public ChiTietDonHangDTO()
         {
-            DonHang = new DonHangDTO();
         }
         
     }

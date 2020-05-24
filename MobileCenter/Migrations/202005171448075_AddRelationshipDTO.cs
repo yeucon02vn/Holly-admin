@@ -32,7 +32,8 @@
                         NgayTaoDonHang = c.DateTime(nullable: false),
                         NgayXuLyDonHang = c.DateTime(nullable: false),
                         TrackingNumber = c.String(),
-                    })
+                        MaGiaoDich = c.String(),
+                })
                 .PrimaryKey(t => t.IdDonHang)
                 .ForeignKey("dbo.NguoiDung", t => t.IdNguoiDung, cascadeDelete: true)
                 .ForeignKey("dbo.TinhTrangDonHang", t => t.IdTinhTrangDonHang, cascadeDelete: true)
@@ -93,6 +94,7 @@
                         TenSanPham = c.String(),
                         MoTaSanPham = c.String(),
                         GiaSanPham = c.Int(nullable: false),
+                        SoLuong = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.IdSanPham)
                 .ForeignKey("dbo.DanhMucSanPham", t => t.IdDanhMucSanPham, cascadeDelete: true)
@@ -106,7 +108,7 @@
                     {
                         IdGioHang = c.Int(nullable: false, identity: true),
                         IdSanPham = c.Int(nullable: false),
-                        CartGuild = c.String(),
+                        CartGuid = c.String(),
                         SoLuong = c.Int(nullable: false),
                         NgayTaoGioHang = c.DateTime(nullable: false),
                     })
@@ -122,15 +124,15 @@
                         LinkSanPham = c.Binary(),
                     })
                 .PrimaryKey(t => t.IdHinhSanPham);
-            
+
             CreateTable(
                 "dbo.ThamSo",
                 c => new
-                    {
-                        SoLuongTruyCap = c.Int(nullable: false, identity: true),
-                    })
-                .PrimaryKey(t => t.SoLuongTruyCap);
-            
+                {
+                    Id = c.Int(nullable: false, identity: true),
+                    SoLuongTruyCap = c.Int(nullable: true, identity: false),
+                })
+                .PrimaryKey(t => t.Id); ;            
         }
         
         public override void Down()

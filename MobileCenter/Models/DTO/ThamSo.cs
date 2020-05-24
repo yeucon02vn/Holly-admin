@@ -11,6 +11,7 @@ namespace MobileCenter.Models.DTO
     public class ThamSo
     {
         [Key]
-        public int SoLuongTruyCap { get; set; }
+        public int Id { get; set; }
+        public int? SoLuongTruyCap { get; set; }
     }
 }

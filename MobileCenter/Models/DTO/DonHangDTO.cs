@@ -19,12 +19,16 @@ namespace MobileCenter.Models.DTO
         public DateTime NgayTaoDonHang { get; set; }
         public DateTime NgayXuLyDonHang { get; set; }
         public string TrackingNumber { get; set; }
+        public string MaGiaoDich { get; set; }
+        public ChiTietDonHangDTO ChiTietDonHang { get; set; }
 
         public DonHangDTO()
         {
             NguoiDung = new NguoiDungDTO();
             TinhTrangDonHang = new TinhTrangDonHangDTO();
+            ChiTietDonHang = new ChiTietDonHangDTO();
         }
-        public ICollection<ChiTietDonHangDTO> ChiTietDonHang { get; set; }
+
+
     }
 }
