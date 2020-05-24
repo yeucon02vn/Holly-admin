@@ -13,5 +13,7 @@ namespace MobileCenter.Models.DTO
         [Key]
         public int IdHinhSanPham { get; set; }
         public Byte[] LinkSanPham { get; set; }
+
+        public ICollection<SanPhamDTO> SanPham { get; set; }
     }
 }
