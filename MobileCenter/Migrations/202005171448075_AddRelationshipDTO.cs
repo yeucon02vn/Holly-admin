@@ -94,7 +94,7 @@
                         TenSanPham = c.String(),
                         MoTaSanPham = c.String(),
                         GiaSanPham = c.Int(nullable: false),
-                        SoLuong = c.Int(nullable: false),
+                        SoLuong = c.Int(nullable: true),
                     })
                 .PrimaryKey(t => t.IdSanPham)
                 .ForeignKey("dbo.DanhMucSanPham", t => t.IdDanhMucSanPham, cascadeDelete: true)
