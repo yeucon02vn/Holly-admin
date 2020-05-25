@@ -120,3 +120,4 @@ C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\bin\Microsoft.CodeDom.Provi
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csproj.CopyComplete
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.dll
 C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.pdb
+C:\Users\Tieu Manh\Desktop\MobileCenter\MobileCenter\obj\Debug\MobileCenter.csprojAssemblyReference.cache

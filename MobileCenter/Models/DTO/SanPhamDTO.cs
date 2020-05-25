@@ -19,7 +19,6 @@ namespace MobileCenter.Models.DTO
         public string TenSanPham { get; set; }
         public string MoTaSanPham { get; set; }
         public int GiaSanPham { get; set; }
- 
         public int SoLuong { get; set; }
         public SanPhamDTO() {
             DanhMucSanPham = new DanhMucSanPhamDTO();

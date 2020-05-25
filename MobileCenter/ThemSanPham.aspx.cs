@@ -16,31 +16,52 @@ namespace MobileCenter
             if (!IsPostBack)
             {
                 txtTenSanPham.Focus(); // txtTenSanPham là ID của TextBox
+                HienThiDanhMucSanPham();
             }
         }
+
+        private void HienThiDanhMucSanPham()
+        {
+            DanhMucSanPhamBUS selectDanhMuc = new DanhMucSanPhamBUS();
+            try
+            {
+                selectDanhMuc.Select();
+            }
+            catch
+            {
+                Response.Redirect("../Trangloi.aspx");
+            }
+            dropDanhMucSanPham.DataTextField = "TenDanhMucSanPham";
+            // dropDanhMucSanPham là ID của điều khiển DropDownList
+            dropDanhMucSanPham.DataValueField = "IdDanhMucSanPham";
+            dropDanhMucSanPham.DataSource = selectDanhMuc.KetQua;
+            dropDanhMucSanPham.DataBind();
+        }
+
         protected void btnCapNhat_Click(object sender, EventArgs e)
         {
             if (IsValid)
             {
-                SanPhamBUS themsanpham = new SanPhamBUS();
-                SanPhamDTO Spham = new SanPhamDTO();
-                Spham.IdDanhMucSanPham = 1;
-                Spham.IdHinhSanPham = 1;
-                Spham.TenSanPham = txtTenSanPham.Text; // txtTenSanPham là ID của TextBox
-                Spham.MoTaSanPham = CKEditorControlMoTa.Text;//txtTenSanPham là ID của TextBox      
-                Spham.HinhSanPham.LinkSanPham = fileuploadHinhSanPham.FileBytes;
+                SanPhamBUS insertSanPham = new SanPhamBUS();
+                SanPhamDTO sanPham = new SanPhamDTO();
+
+                sanPham.IdDanhMucSanPham = int.Parse(dropDanhMucSanPham.SelectedItem.Value);
+                sanPham.TenSanPham = txtTenSanPham.Text; // txtTenSanPham là ID của TextBox
+                sanPham.MoTaSanPham = CKEditorControlMoTa.Text;//txtTenSanPham là ID của TextBox      
+                sanPham.HinhSanPham.LinkSanPham = fileuploadHinhSanPham.FileBytes;
                 // fileuploadHinhSanPham là ID của điều khiển FileUpLoad
-                Spham.GiaSanPham = int.Parse(txtGia.Text); // txtGia là ID của TextBox
-                themsanpham._sanPham = Spham;
+                sanPham.GiaSanPham = int.Parse(txtGia.Text); // txtGia là ID của TextBox
+                insertSanPham._sanPham = sanPham;
                 try
                 {
-                    themsanpham.Insert();
+                    insertSanPham.Insert();
                 }
                 catch
                 {
                     Response.Redirect("../Trangloi.aspx");
                 }
-                Response.Redirect("SanPham.aspx");
+                // tắt khúc này vì chưa có trang SanPham.aspx nên khi add thành công thì nó chuyển qua trang SanPham sẽ lỗi
+                //Response.Redirect("SanPham.aspx");
             }
         }
         protected void BtnBoQua_Click(object sender, EventArgs e)
