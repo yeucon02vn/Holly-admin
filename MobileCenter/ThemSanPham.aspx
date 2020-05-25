@@ -5,6 +5,9 @@
     <table border="0" cellpadding="0" cellspacing="0" style="width: 820px">
         <tr>
             <td style="width: 200px" align="center">
+                Trang sản phẩm</td>           
+        <tr>
+            <td style="width: 200px" align="center">
                 Tên Sản Phẩm</td>
             <td style="width: 620px">
                 <asp:TextBox ID="txtTenSanPham" runat="server"></asp:TextBox>
