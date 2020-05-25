@@ -1,4 +1,8 @@
 [Oo]bj
+MobileCenter.dll
+MobileCenter.dll.config
+MobileCenter.pdb
+applicationhost.config
 *.user
 *.suo
 *.[Cc]ache
@@ -17,3 +21,4 @@ UpgradeLog.XML
 *.vssscc
 *.scc
 *.sqlsuo
+*.config

@@ -54,7 +54,5 @@ namespace MobileCenter.Models.DAL
             sqlData.SelectParameters.Add("MatKhau", _nguoiDung.MatKhau);
             return sqlData;
         }
-
-
     }
 }
