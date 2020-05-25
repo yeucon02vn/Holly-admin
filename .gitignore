@@ -21,3 +21,4 @@ UpgradeLog.XML
 *.sqlsuo
 *.config
 Debug
+.vs
