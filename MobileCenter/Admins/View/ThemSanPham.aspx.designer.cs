@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MobileCenter
+namespace MobileCenter.Admins.View
 {
 
 

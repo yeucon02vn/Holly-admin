@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MobileCenter
+namespace MobileCenter.Admins.View
 {
     public partial class ThemSanPham : System.Web.UI.Page
     {

@@ -45,7 +45,7 @@ namespace MobileCenter.Models.BUS
             _sanPham.MoTaSanPham = gv.Rows[0].Cells[4].Text.ToString();
             _sanPham.GiaSanPham = Convert.ToInt32(gv.Rows[0].Cells[5].Text.ToString());
             _sanPham.IdSanPham = int.Parse(gv.Rows[0].Cells[0].Text.ToString());
-            _sanPham.IdDanhMucSanPham = int.Parse(gv.Rows[0].Cells[2].Text.ToString());
+            _sanPham.DanhMucSanPham.TenDanhMucSanPham = gv.Rows[0].Cells[2].Text.ToString();
             _sanPham.IdHinhSanPham = int.Parse(gv.Rows[0].Cells[3].Text.ToString());
         }
         public void SelectByDanhMuc()
