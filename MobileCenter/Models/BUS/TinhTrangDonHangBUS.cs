@@ -11,7 +11,7 @@ namespace MobileCenter.Models.BUS
     {
         public SqlDataSource KetQua { get; set; }
 
-        public void Thucthi()
+        public void Select()
         {
             TinhTrangDonHangDAL selectTinhTrang = new TinhTrangDonHangDAL();
             KetQua = selectTinhTrang.Select();
