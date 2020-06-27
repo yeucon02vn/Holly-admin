@@ -42,7 +42,7 @@ namespace MobileCenter.Admins.View
             gridviewOrderDetailsProducts.DataSource = xuLyChiTietDonHang.KetQua;
             gridviewOrderDetailsProducts.DataBind();
             //------Hiển thị ID giao dịch trong label------------------
-            labelTransactionID.Text = Request.QueryString["IDgiaodich"];
+            labelTransactionID.Text = Request.QueryString["MaGiaoDich"];
             //------Hiển thị ngày xử lý đơn hàng---------------------
             if (donHang.NgayXuLyDonHang != DateTime.MinValue)
             {
@@ -74,7 +74,7 @@ namespace MobileCenter.Admins.View
         //---------Xự kiện nút trở về--------------------
         protected void btnTroVe_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("ThongKeDonHang.aspx");
+            Response.Redirect("~admin/thongkedonhang");
         }
         // ---------sự kiện kích image button--------------
 
@@ -115,7 +115,7 @@ namespace MobileCenter.Admins.View
             {
                 Response.Redirect("../Trangloi.aspx");
             }
-            Response.Redirect("ThongKeDonHang.aspx");
+            Response.Redirect("~admin/thongkedonhang");
         }
     }
 }

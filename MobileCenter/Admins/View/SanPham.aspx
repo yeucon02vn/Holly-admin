@@ -9,7 +9,7 @@
             <table cellpadding="0" cellspacing="0" style="width: 250px; height:300px">
                 <tr>
                     <td rowspan="1" style="width: 125px; height: 150px" align="center" valign="middle">
-                        <asp:Image ID="Image1" runat="server" Height="150px" ImageUrl='<%# Eval("IdHinhSanPham","../HienThiHinhSanPham.ashx?IdHinhSanPham={0}") %>'
+                        <asp:Image ID="Image1" runat="server" Height="150px" ImageUrl='<%# Eval("IdHinhSanPham","~/View/HienThiHinhSanPham.ashx?IdHinhSanPham={0}") %>'
                             Width="125px" /></td>
                     <td style="width: 125px; height: 150px" align="center" valign="middle">
                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# Eval("IdSanPham","SuaSanPham.aspx?IdSanPham={0}") %>'

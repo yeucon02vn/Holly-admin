@@ -55,7 +55,7 @@ namespace MobileCenter.Admins.View
                 txtTenSanPham.Text = laySanPhamByID._sanPham.TenSanPham;
                 CKEditorControlMoTa.Text = laySanPhamByID._sanPham.MoTaSanPham;
                 textGia.Text = laySanPhamByID._sanPham.GiaSanPham.ToString();
-                imgHinhSanPham.ImageUrl = "../HienThiHinhSanPham.ashx?IdHinhSanPham=" +
+                imgHinhSanPham.ImageUrl = "~/View/HienThiHinhSanPham.ashx?IdHinhSanPham=" +
                 laySanPhamByID._sanPham.IdHinhSanPham.ToString();
                 dropDanhMucSanPham.SelectedIndex =
                 dropDanhMucSanPham.Items.IndexOf(dropDanhMucSanPham.Items.FindByText(

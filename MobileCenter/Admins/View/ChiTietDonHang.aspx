@@ -43,7 +43,7 @@
                 Ngày xử lý đơn hàng</td>
             <td style="width: 700px">
                 <asp:TextBox ID="textShippedDate" runat="server"></asp:TextBox>
-                <asp:ImageButton ID="imagebuttonDatePicker" runat="server" ImageUrl="~/images/calendar.jpg" OnClick="imagebuttonDatePicker_Click" Height="25px" ImageAlign="Top" Width="25px" /><br />
+                <asp:ImageButton ID="imagebuttonDatePicker" runat="server" ImageUrl="https://localhost:44375/Admins/View/images/calendar.jpg" OnClick="imagebuttonDatePicker_Click" Height="25px" ImageAlign="Top" Width="25px" /><br />
                 <asp:Calendar ID="calendarDatePicker" runat="server" OnSelectionChanged="calendarDatePicker_SelectionChanged" Width="317px" BorderColor="Black"></asp:Calendar>
             </td>
         </tr>
@@ -64,8 +64,8 @@
             <td style="width: 300px">
             </td>
             <td style="width: 700px">
-                &nbsp;<asp:ImageButton ID="btnTroVe" runat="server" ImageUrl="~/images/button_back.jpg" OnClick="btnTroVe_Click" />
-                <asp:ImageButton ID="btnCapNhat" runat="server" ImageUrl="~/images/button_capnhat.jpg" OnClick="btnCapNhat_Click" /></td>
+                &nbsp;<asp:ImageButton ID="btnTroVe" runat="server" ImageUrl="images/button_back.jpg" OnClick="btnTroVe_Click" />
+                <asp:ImageButton ID="btnCapNhat" runat="server" ImageUrl="images/button_capnhat.jpg" OnClick="btnCapNhat_Click" /></td>
         </tr>
     </table>
 </asp:Content>

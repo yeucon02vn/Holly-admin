@@ -15,7 +15,6 @@
                     ErrorMessage="Tên sản phẩm không để trống" ControlToValidate="txtTenSanPham"></asp:RequiredFieldValidator></td>
         </tr>
         <tr>
-            <a href="ThemSanPham.aspx">ThemSanPham.aspx</a>
             <td style="width: 200px; height: 19px" align="center">
                 Danh Mục Sản Phẩm</td>
             <td style="width: 620px; height: 19px">

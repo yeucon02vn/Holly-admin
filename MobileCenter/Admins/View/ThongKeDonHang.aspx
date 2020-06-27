@@ -4,8 +4,8 @@
        <Columns>
 <asp:TemplateField HeaderText="ID Giao dịch">
 <ItemTemplate>
-<a href="ChiTietDonHang.aspx?IdGiaoDich=<%# Eval("MaGiaoDich")
-%>&IDdonhang=<%# Eval("IdDonHang") %>&Email=<%# Eval("Email") %>"><%#
+<a href="chitietdonhang?MaGiaoDich=<%# Eval("MaGiaoDich")
+%>&IdDonHang=<%# Eval("IdDonHang") %>&Email=<%# Eval("Email") %>"><%#
 Eval("MaGiaoDich") %></a>
 </ItemTemplate>
     <HeaderStyle BackColor="#E0E0E0" ForeColor="Maroon" />

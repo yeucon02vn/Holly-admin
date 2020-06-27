@@ -1,4 +1,4 @@
-﻿<%@ WebHandler Language = "C#" Class="HienThiHinhSanPham" %>
+﻿<%@ WebHandler Language = "C#" Class="MobileCenter.View.HienThiHinhSanPham" %>
 
 using System.Web;
 using System;
