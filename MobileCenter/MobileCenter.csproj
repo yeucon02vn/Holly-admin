@@ -392,6 +392,7 @@
     <Content Include="ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
     <Content Include="ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="Common\HienThiHinhSanPham.ashx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -475,6 +476,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_User\NguoiDungHienTai.cs">
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\HienThiHinhSanPham.ashx.cs">
+      <DependentUpon>HienThiHinhSanPham.ashx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
