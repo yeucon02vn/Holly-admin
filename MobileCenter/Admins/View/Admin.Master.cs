@@ -6,7 +6,7 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MobileCenter
+namespace MobileCenter.Admins.View
 {
     public partial class Admin : System.Web.UI.MasterPage
     {
@@ -17,7 +17,7 @@ namespace MobileCenter
         protected void LinkButton1_Click(object sender, EventArgs e)
         {
             FormsAuthentication.SignOut();
-            Response.Redirect("Admin/DangNhapAdmin.aspx");
+            Response.Redirect("~/admin");
         }
     }
 }

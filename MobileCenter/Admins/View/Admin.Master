@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="MobileCenter.Admin" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="MobileCenter.Admins.View.Admin" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -95,19 +95,19 @@ body a:hover
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/ThemSanPham.aspx">ĐĂNG SẢN PHẨM</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/admin/themsanpham">ĐĂNG SẢN PHẨM</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/SanPham.aspx">SẢN PHẨM</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/admin/sanpham">SẢN PHẨM</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin/ThongKeDonHang.aspx">THỐNG KÊ ĐƠN HÀNG</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/admin/thongkedonhang">THỐNG KÊ ĐƠN HÀNG</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px;">

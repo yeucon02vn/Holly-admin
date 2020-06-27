@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="ThongKeDonHang.aspx.cs" Inherits="MobileCenter.Admins.View.ThongKeDonHang" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admins/View/Admin.Master" AutoEventWireup="true" CodeBehind="ThongKeDonHang.aspx.cs" Inherits="MobileCenter.Admins.View.ThongKeDonHang" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:GridView ID="gridTatCaDonHang" runat="server" AutoGenerateColumns="False" Width="820px">
        <Columns>

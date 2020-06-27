@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="SanPham.aspx.cs" Inherits="MobileCenter.Admins.View.SanPham" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Admins/View/Admin.Master" AutoEventWireup="true" CodeBehind="SanPham.aspx.cs" Inherits="MobileCenter.Admins.View.SanPham" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <asp:Button ID="bntThemSanPham" runat="server" Text="Thêm Sản Phẩm" OnClick="bntThemSanPham_Click" /><br/>
     <div>
