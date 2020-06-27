@@ -11,7 +11,7 @@
             <table cellpadding="0" cellspacing="0" style="width:170px">
                 <tr>
                     <td style="width: 175px; height: 125px; text-align: center;" align="center">
-                        <asp:Image ID="Image1" runat="server" Height="125px" ImageUrl='<%# Eval("IdHinhSanPham","HienThiHinhSanPham.ashx?IdHinhSanPham={0}") %>' Width="100px" /></td>
+                        <asp:Image ID="Image1" runat="server" Height="125px" ImageUrl='<%# Eval("IdHinhSanPham","HienThiHinhSanPham.ashx.cs?IdHinhSanPham={0}") %>' Width="100px" /></td>
                 </tr>
                 <tr>
                     <td style="width: 175px; height: 22px;" align="center">

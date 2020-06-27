@@ -1,20 +1,20 @@
-﻿//<%@ WebHandler Language = "C#" Class="HienThiHinhSanPham" %>
+﻿<%@ WebHandler Language = "C#" Class="HienThiHinhSanPham" %>
 
 using System.Web;
+using System;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using MobileCenter.Models.DTO;
 using MobileCenter.Models.BUS;
 
-namespace MobileCenter.Common
+namespace MobileCenter.View
 {
     /// <summary>
     /// Summary description for HienThiHinhSanPham
     /// </summary>
     public class HienThiHinhSanPham : IHttpHandler
     {
-
         public void ProcessRequest(HttpContext context)
         {
             SanPhamDTO sanPham = new SanPhamDTO();

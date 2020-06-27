@@ -198,6 +198,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admins\View\ChiTietDonHang.aspx" />
+    <Content Include="Admins\View\DangNhapAdmin.aspx" />
     <Content Include="Admins\View\SanPham.aspx" />
     <Content Include="Admins\View\SuaSanPham.aspx" />
     <Content Include="Admins\View\ThongKeDonHang.aspx" />
@@ -382,7 +383,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Admin.Master" />
+    <Content Include="Admins\View\Admin.Master" />
     <Content Include="ckeditor\CHANGES.md" />
     <Content Include="ckeditor\LICENSE.md" />
     <Content Include="ckeditor\README.md" />
@@ -392,7 +393,6 @@
     <Content Include="ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
     <Content Include="ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="ckeditor\skins\moono-lisa\readme.md" />
-    <Content Include="Common\HienThiHinhSanPham.ashx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -437,11 +437,11 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.Master.cs">
+    <Compile Include="Admins\View\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin.Master.designer.cs">
+    <Compile Include="Admins\View\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
     <Compile Include="Admins\View\ChiTietDonHang.aspx.cs">
@@ -450,6 +450,13 @@
     </Compile>
     <Compile Include="Admins\View\ChiTietDonHang.aspx.designer.cs">
       <DependentUpon>ChiTietDonHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\View\DangNhapAdmin.aspx.cs">
+      <DependentUpon>DangNhapAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\View\DangNhapAdmin.aspx.designer.cs">
+      <DependentUpon>DangNhapAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admins\View\SanPham.aspx.cs">
       <DependentUpon>SanPham.aspx</DependentUpon>
@@ -476,9 +483,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_User\NguoiDungHienTai.cs">
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Common\HienThiHinhSanPham.ashx.cs">
-      <DependentUpon>HienThiHinhSanPham.ashx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -574,6 +578,9 @@
     <Compile Include="View\GioiThieuSanPham.aspx.designer.cs">
       <DependentUpon>GioiThieuSanPham.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\HienThiHinhSanPham.ashx.cs">
+      <DependentUpon>HienThiHinhSanPham.ashx</DependentUpon>
+    </Compile>
     <Compile Include="View\Home.Master.cs">
       <DependentUpon>Home.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -612,6 +619,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="View\Home.Master" />
+    <Content Include="View\HienThiHinhSanPham.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

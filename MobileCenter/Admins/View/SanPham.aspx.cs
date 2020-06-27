@@ -34,7 +34,7 @@ namespace MobileCenter.Admins.View
         }
         protected void bntThemSanPham_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ThemSanPham.aspx");
+            Response.Redirect("~/admin/themsanpham");
         }
     }
 }
