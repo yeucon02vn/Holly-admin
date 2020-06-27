@@ -12,7 +12,6 @@ namespace MobileCenter.Models.BUS
     {
         public SanPhamDTO _sanPham { get; set; }
         public SqlDataSource KetQua { get; set; }
-        public string Tieuchuantim { get; set; }
 
         public void Insert()
         {
@@ -67,10 +66,10 @@ namespace MobileCenter.Models.BUS
             KetQua = selectHinhSanPhamById.SelectHinhSanPham();
         }
 
-        public void Search()
+        public void Search(string keyword)
         {
             SanPhamDAL searchSanPham = new SanPhamDAL();
-            KetQua = searchSanPham.Search(Tieuchuantim);
+            KetQua = searchSanPham.Search(keyword);
         }
     }
 }

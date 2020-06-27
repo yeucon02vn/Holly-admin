@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MobileCenter
+namespace MobileCenter.View
 {
 
 
-    public partial class Contact
+    public partial class ThemGioHang
     {
     }
 }
