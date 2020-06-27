@@ -199,6 +199,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Admins\View\ChiTietDonHang.aspx" />
+    <Content Include="Admins\View\DangNhapAdmin.aspx" />
     <Content Include="Admins\View\SanPham.aspx" />
     <Content Include="Admins\View\SuaSanPham.aspx" />
     <Content Include="Admins\View\ThongKeDonHang.aspx" />
@@ -445,6 +446,13 @@
     </Compile>
     <Compile Include="Admins\View\ChiTietDonHang.aspx.designer.cs">
       <DependentUpon>ChiTietDonHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\View\DangNhapAdmin.aspx.cs">
+      <DependentUpon>DangNhapAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\View\DangNhapAdmin.aspx.designer.cs">
+      <DependentUpon>DangNhapAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admins\View\SanPham.aspx.cs">
       <DependentUpon>SanPham.aspx</DependentUpon>

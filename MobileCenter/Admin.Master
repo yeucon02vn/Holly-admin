@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Trang quản trị viên</title>
-    <link href="web/admin.css" type="text/css" rel="Stylesheet" /> 
+    <%--<link href="web/admin.css" type="text/css" rel="Stylesheet" />--%> 
      <style type="text/css">
      body 
 {
@@ -95,31 +95,31 @@ body a:hover
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/ThemSanPham.aspx">ĐĂNG SẢN PHẨM</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admins/View/ThemSanPham.aspx">ĐĂNG SẢN PHẨM</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/SanPham.aspx">SẢN PHẨM</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admins/View/SanPham.aspx">SẢN PHẨM</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin/ThongKeDonHang.aspx">THỐNG KÊ ĐƠN HÀNG</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admins/View/ThongKeDonHang.aspx">THỐNG KÊ ĐƠN HÀNG</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px;">
                                 <asp:Image ID="Image7" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Admin/quanlytintuc.aspx">ĐĂNG TIN</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Admins/View/quanlytintuc.aspx">ĐĂNG TIN</asp:HyperLink></td>
                         </tr>
                         <tr>
                             <td style="width: 17px; padding-top: 3px">
                                 <asp:Image ID="Image10" runat="server" ImageUrl="~/Images/arr.gif" /></td>
                             <td style="font-weight: bold; padding-top: 3px">
-                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/GioiThieuSanPham.aspx">TRANG CHỦ</asp:HyperLink></td>
+                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Admins/View/GioiThieuSanPham.aspx">TRANG CHỦ</asp:HyperLink></td>
                         </tr>
                          <tr>
                             <td style="width: 17px; padding-top: 3px">
